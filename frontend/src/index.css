@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@layer base {
+  body {
+    @apply font-sans; /* Apply the sans-serif font globally */
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Ensure scrolling still works */
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
