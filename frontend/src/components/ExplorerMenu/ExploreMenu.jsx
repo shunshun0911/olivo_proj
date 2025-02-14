@@ -15,7 +15,7 @@ const ExploreMenu = ({ category, setCategory }) => {
             <div
               onClick={() =>
                 setCategory((prev) =>
-                  prev === item.menu_name ? "" : item.menu_name
+                  prev === item.menu_name ? "All" : item.menu_name
                 )
               }
               key={index}
@@ -29,7 +29,7 @@ const ExploreMenu = ({ category, setCategory }) => {
                     : ""
                 }w-[7.5vw] min-w-[80px] cursor-pointer rounded-[50%] transition duration-200`}
               />
-              <p className="mt-2.5 text-[#747474] text-[max(1.4vw,16px)] cursor-pointer">
+              <p className="mt-2.5 text-[#747474] text-[max(1.4vw,16px)] cursor-pointer bg-red-50">
                 {item.menu_name}
               </p>
             </div>
