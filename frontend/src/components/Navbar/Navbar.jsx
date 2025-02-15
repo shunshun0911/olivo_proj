@@ -1,4 +1,3 @@
-import { adminAssets } from "../../assets/admin_assets/assets";
 import { frontendAssets } from "../../assets/frontend_assets/assets";
 import { useState } from "react";
 
